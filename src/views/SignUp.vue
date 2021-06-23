@@ -88,7 +88,7 @@ export default {
                             type: 'is-success',
                             dismissible: true,
                         })
-                        this.$route.push('/log-in')
+                        this.$router.push('/log-in')
                     })
                     .catch(error => {
                         console.log(error);
